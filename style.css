@@ -4,14 +4,26 @@
  box-sizing: border-box;
 }
 
-img {
-    position: absolute;  
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    width: 890px;
-}
-
 @media screen and (max-width: 704px) {
     
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.text {
+	font-size: 2rem;
+	opacity: 0;
+	animation: fadein 1s forwards;
+
+}
+
+@keyframes fadein {
+  to {opacity: 1; }
 }
