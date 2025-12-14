@@ -1,0 +1,29 @@
+body{
+  margin:0;
+  background:white;
+}
+
+.grid{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns: repeat(3, auto); 
+  gap:24px;
+  place-content:center;  
+}
+
+.grid img{
+  width:300px;   
+  height:auto;
+  display:block;
+}
+
+.text{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+
+@media screen and (max-width: 704px) {
+    
+}

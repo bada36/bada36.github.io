@@ -1,29 +1,140 @@
-		*{
- margin : 0;
- padding: 0;
- box-sizing: border-box;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
+#desk {
+  position: relative;
+  width: 70vw;        
+  max-width: 1200px;
+}
+
+#desk img {
+  width: 100%;
+  display: block;
+}
+
+
+.hotspot {
+  position: absolute;
+  z-index: 10;        
+}
+
+
+.ipad {
+  width: 260px;
+  height: 180px;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.tyrenol {
+  left: 82%;
+  top: 70%;
+  width: 8%;
+  height: 17%;
+}
+
+.curryrice {
+  left:40%;
+  top:82%;
+  width:20%;
+  height:12%;
+
+}
+
+.tooth {
+    left: 13%;
+    top: 69%;
+    width: 17%;
+    height: 10%;
+}
+
+.usb {
+    left:57%;
+    top: 74%;
+    width: 14%;
+    height: 7%;
+}
+
+.bee {
+    left: 75%;
+    top: 57%;
+    width: 8%;
+    height:15%;
+}
+
+.waterbottle{
+  left: 50%;
+  top:13%;
+  width: 6%;
+  height: 15%;
+}
+
+
+.bear {
+  left: 1%;
+  top: 10%;
+  width: 11%;
+  height: 10%;
+}
+
+.fan{
+  left:35%;
+  top:19%;
+  width: 9%;
+  height: 9%;
+}
+
+.rat {
+  left: 13%;
+  top: 20%;
+  width: 10%;
+  height: 9%;
+ 
+}
+
+.tar {
+  left:24%;
+  top:18%;
+  width:8%;
+  height: 9%;
+}
+
+.hamtori {
+  left: 65%;
+  top: 59%;
+  width: 7%;
+  height: 9%;
+}
+
+.hamtorii {
+  left: 29%;
+  top: 61%;
+  width: 7%;
+  height: 8%;
+}
+
+
+.lucky {
+  left:58%;
+  top:15%;
+  width: 18%;
+  height: 15%;
+}
+
+
+.hamtorii {
+  background: rgba(255,0,0,0.3);
+}
+
+
+
 
 @media screen and (max-width: 704px) {
     
-}
-
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	margin: 0;
-	font-family: sans-serif;
-}
-
-.text {
-	font-size: 2rem;
-	opacity: 0;
-	animation: fadein 3s forwards;
-
-}
-
-@keyframes fadein {
-  to {opacity: 1; }
 }
